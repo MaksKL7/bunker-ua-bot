@@ -38,7 +38,7 @@ def generate_full_card():
     h = random.randint(20, 300)
     w = random.randint(1, 300)
     return {
-        "Вік": random.randint(1, 130), "Стать": random.choice(["Чоловік", "Жінка", "Тарансгендер", "Робот", "Скотина"]),
+        "Вік": random.randint(1, 130), "Стать": random.choice(["Чоловік", "Жінка", "Тарансгендер", "Робот",]),
         "Професія": random.choice(PROFESSIONS), 
         "Параметри": f"{h} см / {w} кг",
         "Здоров'я": random.choice(HEALTH),
